@@ -4,7 +4,7 @@
 
 ## Install
 ```bash
-yarn add @whatever/eslint-config-elium --save-dev
+yarn add @whatever/eslint-config-elium --dev
 ```
 
 ## Usage
