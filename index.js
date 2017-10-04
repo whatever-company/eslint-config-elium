@@ -24,6 +24,7 @@ module.exports = {
 		'standard/no-callback-literal': 'off',
 		'generator-star-spacing': 1,
 		'jsx-quotes': [2, 'prefer-single'],
+		'no-console': ['error', { allow: ['warn', 'error']}],
 		'no-unused-vars': [
 			1,
 			{
