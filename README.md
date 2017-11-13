@@ -12,6 +12,12 @@ yarn add @whatever/eslint-config-elium --dev
 Shareable configs are designed to work with the `extends` feature of `.eslintrc` files.
 You can learn more about [Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs) on the official ESLint website.
 
+Here's how to install everything you need:
+
+```bash
+yarn add --dev eslint-config-standard eslint-config-standard-react eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-react
+```
+
 Then, add this to your .eslintrc file:
 
 ```
