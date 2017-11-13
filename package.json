@@ -7,7 +7,7 @@
   "author": "Quentin Gérome <q.gerome@whatever-company.com>",
   "license": "MIT",
   "homepage": "https://gitlab.office.whatever-company.com/KP/eslint-config-elium/",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^3.19.0",
     "eslint-config-standard": "^10.2.0",
     "eslint-config-standard-react": "^5.0.0",
