@@ -1,7 +1,7 @@
 {
   "name": "@whatever/eslint-config-elium",
   "description": "Elium Javascript Style - Eslint config",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "index.js",
   "repository": "git@gitlab.office.whatever-company.com:q.gerome/eslint-config-elium.git",
   "author": "Quentin Gérome <q.gerome@whatever-company.com>",
