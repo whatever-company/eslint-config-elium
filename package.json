@@ -1,20 +1,20 @@
 {
   "name": "@whatever/eslint-config-elium",
   "description": "Elium Javascript Style - Eslint config",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "main": "index.js",
   "repository": "git@gitlab.office.whatever-company.com:q.gerome/eslint-config-elium.git",
   "author": "Quentin Gérome <q.gerome@whatever-company.com>",
   "license": "MIT",
   "homepage": "https://gitlab.office.whatever-company.com/KP/eslint-config-elium/",
   "devDependencies": {
-    "eslint": "^4.13.0",
-    "eslint-config-standard": "^10.2.0",
-    "eslint-config-standard-react": "^5.0.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-promise": "^3.4.1",
-    "eslint-plugin-react": "^7.1.0",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-config-standard-react": "^6.0.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-react": "^7.7.0",
     "eslint-plugin-standard": "^3.0.1"
   }
 }
