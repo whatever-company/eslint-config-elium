@@ -3,8 +3,9 @@
 #### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for Javascript [@Elium](https://elium.com)
 
 ## Install
+
 ```bash
-yarn add @whatever/eslint-config-elium --dev
+yarn add @eliumhq/eslint-config-elium --dev
 ```
 
 ## Usage
@@ -22,12 +23,11 @@ Then, add this to your .eslintrc file:
 
 ```
 {
-  "extends": "@whatever/elium"
+  "extends": "@eliumhq/elium"
 }
 ```
 
-*Note: We omitted the `eslint-config-` prefix since it is automatically assumed by ESLint.*
+_Note: We omitted the `eslint-config-` prefix since it is automatically assumed by ESLint._
 
 You can override settings from the shareable config by adding them directly into your
 `.eslintrc` file.
-
