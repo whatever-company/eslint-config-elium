@@ -6,7 +6,7 @@ module.exports = {
 	rules: {
 		indent: ['error', 'tab'],
 		'max-len': ['error', { code: 120, tabWidth: 2 }],
-		quotes: ['error', 'single', { 'allowTemplateLiterals': true, 'avoidEscape': true }],
+		quotes: ['error', 'single', { allowTemplateLiterals: true, avoidEscape: true }],
 		semi: 'off',
 		'object-curly-spacing': ['error', 'always'],
 		'no-tabs': 'off',
@@ -24,7 +24,7 @@ module.exports = {
 		'standard/no-callback-literal': 'off',
 		'generator-star-spacing': 1,
 		'jsx-quotes': [2, 'prefer-single'],
-		'no-console': ['error', { allow: ['warn', 'error']}],
+		'no-console': ['error', { allow: ['warn', 'error'] }],
 		'no-unused-vars': [
 			1,
 			{
