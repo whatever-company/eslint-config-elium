@@ -16,7 +16,7 @@ You can learn more about [Shareable Configs](http://eslint.org/docs/developer-gu
 Here's how to install everything you need:
 
 ```bash
-yarn add --dev eslint-config-standard eslint-config-standard-react eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-react eslint-plugin-import eslint-plugin-node
+yarn add --dev eslint-config-standard eslint-config-standard-react eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-react eslint-plugin-import eslint-plugin-node eslint-plugin-prettier
 ```
 
 Then, add this to your .eslintrc file:
