@@ -10,12 +10,6 @@ module.exports = {
 		'prettier/standard'
 	],
 	plugins: ['graphql', 'react', 'prettier', 'standard'],
-	parserOptions: {
-		sourceType: 'module',
-		ecmaFeatures: {
-			jsx: true
-		}
-	},
 	rules: {
 		'prettier/prettier': 'error',
 		'react/prop-types': 'off',
