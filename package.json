@@ -3,10 +3,10 @@
   "description": "Elium Javascript Style - Eslint config",
   "version": "1.1.6",
   "main": "index.js",
-  "repository": "git@gitlab.office.whatever-company.com:q.gerome/eslint-config-elium.git",
+  "repository": "git@gitlab.com:elium/product/eslint-config-elium.git",
   "author": "Quentin Gérome <q.gerome@whatever-company.com>",
   "license": "MIT",
-  "homepage": "https://gitlab.office.whatever-company.com/KP/eslint-config-elium/",
+  "homepage": "https://gitlab.com/elium/product/eslint-config-elium",
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
