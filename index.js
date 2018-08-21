@@ -10,6 +10,11 @@ module.exports = {
 		'prettier/standard'
 	],
 	plugins: ['graphql', 'react', 'prettier', 'standard'],
+	settings: {
+		react: {
+			version: '16.4'
+		}
+	},
 	rules: {
 		'prettier/prettier': 'error',
 		'react/prop-types': 'off',
