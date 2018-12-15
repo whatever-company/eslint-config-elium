@@ -19,7 +19,7 @@ module.exports = {
 		// Don't use import/no-duplicates as it's quite slow and we don't use Flow
 		// https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md#when-not-to-use-it
 		'import/no-duplicates': false,
-		'no-duplicate-imports': ['error', { includeExports: true }],
+		'no-duplicate-imports': 'error',
 		'prettier/prettier': 'error',
 		'react/prop-types': 'off',
 		'react/display-name': 'off',
