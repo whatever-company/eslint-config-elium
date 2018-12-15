@@ -27,7 +27,7 @@ module.exports = {
 			{
 				args: 'none',
 				vars: 'local',
-				varsIgnorePattern: '^debug'
+				varsIgnorePattern: '^debug|^_+$'
 			}
 		]
 	}
