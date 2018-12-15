@@ -9,18 +9,24 @@
   "homepage": "https://gitlab.com/elium/product/eslint-config-elium",
   "devDependencies": {
     "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.3.0",
     "eslint-config-standard": "^11.0.0",
     "eslint-config-standard-react": "^6.0.0",
-    "eslint-config-prettier": "^2.3.0",
-    "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-graphql": "^2.1.1",
+    "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-react": "^7.10.0",
     "eslint-plugin-standard": "^3.1.0",
     "graphql": "^0.13.2",
-    "prettier": "^1.13.7"
+    "prettier": "^1.13.7",
+    "prettier-cli": "^0.1.0",
+    "standard-version": "^4.4.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "scripts": {
+    "format": "prettier --write '**/*.{js,jsx,md,json,css}'",
+    "release": "standard-version"
+  }
 }
