@@ -2,12 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-# [2.2.0](https://gitlab.com/elium/product/eslint-config-elium/compare/v2.1.2...v2.2.0) (2019-02-22)
+## [2.2.1](https://gitlab.com/elium/product/eslint-config-elium/compare/v2.2.0...v2.2.1) (2019-02-22)
 
 
-### Features
+### Bug Fixes
 
-* Add react-hooks ([0eb374c](https://gitlab.com/elium/product/eslint-config-elium/commit/0eb374c))
+* Add react-hooks to plugins list ([c83bafe](https://gitlab.com/elium/product/eslint-config-elium/commit/c83bafe))
 
 
 
