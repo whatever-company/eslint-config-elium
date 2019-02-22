@@ -9,7 +9,7 @@ module.exports = {
 		'prettier/react',
 		'prettier/standard'
 	],
-	plugins: ['graphql', 'react', 'prettier', 'standard'],
+	plugins: ['graphql', 'react', 'prettier', 'standard', 'react-hooks'],
 	settings: {
 		react: {
 			version: '16.4'
