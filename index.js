@@ -33,6 +33,8 @@ module.exports = {
 				vars: 'local',
 				varsIgnorePattern: '^debug|^_+$'
 			}
-		]
+		],
+		"react-hooks/rules-of-hooks": 'error',
+		"react-hooks/exhaustive-deps": 'error'
 	}
 }
