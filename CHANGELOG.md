@@ -2,12 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [2.2.1](https://gitlab.com/elium/product/eslint-config-elium/compare/v2.2.0...v2.2.1) (2019-02-22)
+# [3.0.0](https://gitlab.com/elium/product/eslint-config-elium/compare/v2.2.1...v3.0.0) (2019-06-18)
 
 
-### Bug Fixes
+### Features
 
-* Add react-hooks to plugins list ([c83bafe](https://gitlab.com/elium/product/eslint-config-elium/commit/c83bafe))
+* throw error on 'no-unused-vars' ([942a26f](https://gitlab.com/elium/product/eslint-config-elium/commit/942a26f))
+
+
+### BREAKING CHANGES
+
+* major change
 
 
 
