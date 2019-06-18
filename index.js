@@ -27,7 +27,7 @@ module.exports = {
 		'no-useless-return': 'off',
 		'no-console': ['error', { allow: ['warn', 'error'] }],
 		'no-unused-vars': [
-			'warn',
+			'error',
 			{
 				args: 'none',
 				vars: 'local',
