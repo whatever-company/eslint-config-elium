@@ -1,6 +1,20 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [4.0.0](https://gitlab.com/elium/product/eslint-config-elium/compare/v3.0.0...v4.0.0) (2019-07-10)
+
+
+### Features
+
+* upgrade eslint to v6 ([782b6d4](https://gitlab.com/elium/product/eslint-config-elium/commit/782b6d4))
+
+
+### BREAKING CHANGES
+
+* upgrade eslint to v6
+
+
 
 # [3.0.0](https://gitlab.com/elium/product/eslint-config-elium/compare/v2.2.1...v3.0.0) (2019-06-18)
 
