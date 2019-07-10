@@ -18,7 +18,7 @@ module.exports = {
 	rules: {
 		// Don't use import/no-duplicates as it's quite slow and we don't use Flow
 		// https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md#when-not-to-use-it
-		'import/no-duplicates': false,
+		'import/no-duplicates': 0,
 		'no-duplicate-imports': 'error',
 		'prettier/prettier': 'error',
 		'react/prop-types': 'off',
@@ -34,7 +34,7 @@ module.exports = {
 				varsIgnorePattern: '^debug|^_+$'
 			}
 		],
-		"react-hooks/rules-of-hooks": 'error',
-		"react-hooks/exhaustive-deps": 'error'
+		'react-hooks/rules-of-hooks': 'error',
+		'react-hooks/exhaustive-deps': 'error'
 	}
 }
