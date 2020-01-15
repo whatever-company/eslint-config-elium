@@ -7,13 +7,13 @@ module.exports = {
 		'plugin:react/recommended',
 		'prettier',
 		'prettier/react',
-		'prettier/standard'
+		'prettier/standard',
 	],
 	plugins: ['graphql', 'react', 'prettier', 'standard', 'react-hooks'],
 	settings: {
 		react: {
-			version: '16.4'
-		}
+			version: '16.4',
+		},
 	},
 	rules: {
 		// Don't use import/no-duplicates as it's quite slow and we don't use Flow
@@ -31,10 +31,10 @@ module.exports = {
 			{
 				args: 'none',
 				vars: 'local',
-				varsIgnorePattern: '^debug|^_+$'
-			}
+				varsIgnorePattern: '^debug|^_+$',
+			},
 		],
 		'react-hooks/rules-of-hooks': 'error',
-		'react-hooks/exhaustive-deps': 'error'
-	}
+		'react-hooks/exhaustive-deps': 'error',
+	},
 }
