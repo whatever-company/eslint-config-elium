@@ -37,5 +37,7 @@ module.exports = {
 		'react-hooks/rules-of-hooks': 'error',
 		'react-hooks/exhaustive-deps': 'error',
 		'react/jsx-fragments': ['error', 'element'], // elium-i18n doesn't handle fragment syntax
+		'react/jsx-handler-names': 'off',
+		'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
 	},
 }
