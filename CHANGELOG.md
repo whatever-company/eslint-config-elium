@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [7.0.0](https://gitlab.com/elium/product/eslint-config-elium/compare/v6.0.0...v7.0.0) (2020-01-15)
+
+
+### Features
+
+* Disable react/jsx-pascal-case rule ([1941346](https://gitlab.com/elium/product/eslint-config-elium/commit/194134668cdece394de2e1fefb4e924afbdb7016))
+
 ## [6.0.0](https://gitlab.com/elium/product/eslint-config-elium/compare/v5.0.0...v6.0.0) (2020-01-15)
 
 
