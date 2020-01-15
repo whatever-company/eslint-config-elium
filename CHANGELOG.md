@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.0](https://gitlab.com/elium/product/eslint-config-elium/compare/v5.0.0...v6.0.0) (2020-01-15)
+
+
+### Features
+
+* Enforce React.Fragment over syntax ([4301442](https://gitlab.com/elium/product/eslint-config-elium/commit/430144292e5fccf256135d99ba67b737d8a51829))
+* Tweak JSX rules ([4624615](https://gitlab.com/elium/product/eslint-config-elium/commit/46246157d415438d65040a99e5570df1958aa27c))
+
+
+### Bug Fixes
+
+* Detect react version ([8c18820](https://gitlab.com/elium/product/eslint-config-elium/commit/8c1882010780453bdd70dbfb4ea4fa7972083725))
+
 ## [5.0.0](https://gitlab.com/elium/product/eslint-config-elium/compare/v4.0.0...v5.0.0) (2020-01-15)
 
 ## [4.0.0](https://gitlab.com/elium/product/eslint-config-elium/compare/v3.0.0...v4.0.0) (2019-07-10)
