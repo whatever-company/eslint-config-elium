@@ -12,7 +12,7 @@ module.exports = {
 	plugins: ['graphql', 'react', 'prettier', 'standard', 'react-hooks'],
 	settings: {
 		react: {
-			version: '16.4',
+			version: 'detect',
 		},
 	},
 	rules: {
