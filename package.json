@@ -6,7 +6,7 @@
   "repository": "git@github.com:whatever-company/eslint-config-elium.git",
   "author": "Quentin Gérome <q.gerome@whatever-company.com>",
   "license": "MIT",
-  "homepage": "https://gitlab.com/elium/product/eslint-config-elium",
+  "homepage": "https://github.com/whatever-company/eslint-config-elium",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
