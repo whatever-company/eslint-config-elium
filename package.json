@@ -1,12 +1,15 @@
 {
-  "name": "@eliumhq/eslint-config-elium",
+  "name": "@whatever-company/eslint-config-elium",
   "description": "Elium Javascript Style - Eslint config",
   "version": "7.0.0",
   "main": "index.js",
-  "repository": "git@gitlab.com:elium/product/eslint-config-elium.git",
+  "repository": "git@github.com:whatever-company/eslint-config-elium.git",
   "author": "Quentin Gérome <q.gerome@whatever-company.com>",
   "license": "MIT",
   "homepage": "https://gitlab.com/elium/product/eslint-config-elium",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-prettier": "6.10.0",
