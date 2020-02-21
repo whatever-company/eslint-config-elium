@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [8.0.0](https://github.com/whatever-company/eslint-config-elium/compare/v7.0.0...v8.0.0) (2020-02-21)
+
+
+
 ## [7.0.0](https://gitlab.com/elium/product/eslint-config-elium/compare/v6.0.0...v7.0.0) (2020-01-15)
 
 
