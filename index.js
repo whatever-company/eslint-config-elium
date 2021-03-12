@@ -6,8 +6,6 @@ module.exports = {
 		'standard-react',
 		'plugin:react/recommended',
 		'prettier',
-		'prettier/react',
-		'prettier/standard',
 	],
 	plugins: ['graphql', 'react', 'prettier', 'standard', 'react-hooks'],
 	settings: {
@@ -19,27 +17,27 @@ module.exports = {
 		// Don't use import/no-duplicates as it's quite slow and we don't use Flow
 		// https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md#when-not-to-use-it
 		'import/no-duplicates': 0,
-		'no-duplicate-imports': 'error',
-		'prettier/prettier': 'error',
-		'react/no-danger': 'error',
-		'react/prop-types': 'off',
-		'react/display-name': 'off',
-		'react/no-find-dom-node': 'off',
-		'no-useless-return': 'off',
-		'no-console': ['error', { allow: ['warn', 'error'] }],
+		'no-duplicate-imports': 2,
+		'prettier/prettier': 2,
+		'react/no-danger': 2,
+		'react/prop-types': 0,
+		'react/display-name': 0,
+		'react/no-find-dom-node': 0,
+		'no-useless-return': 0,
+		'no-console': [2, { allow: ['warn', 'error'] }],
 		'no-unused-vars': [
-			'error',
+			2,
 			{
 				args: 'none',
 				vars: 'local',
 				varsIgnorePattern: '^h|debug|^_+$',
 			},
 		],
-		'react-hooks/rules-of-hooks': 'error',
-		'react-hooks/exhaustive-deps': 'warning',
-		'react/jsx-fragments': ['error', 'element'], // elium-i18n doesn't handle fragment syntax
-		'react/jsx-handler-names': 'off',
-		'react/jsx-pascal-case': 'off',
-		'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
+		'react-hooks/rules-of-hooks': 2,
+		'react-hooks/exhaustive-deps': 1,
+		'react/jsx-fragments': [2, 'element'], // elium-i18n doesn't handle fragment syntax
+		'react/jsx-handler-names': 0,
+		'react/jsx-pascal-case': 0,
+		'react/jsx-curly-brace-presence': [2, { props: 'never', children: 'never' }],
 	},
 }
