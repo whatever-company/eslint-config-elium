@@ -21,6 +21,7 @@ module.exports = {
 		'import/no-duplicates': 0,
 		'no-duplicate-imports': 'error',
 		'prettier/prettier': 'error',
+		'react/no-danger': 'error',
 		'react/prop-types': 'off',
 		'react/display-name': 'off',
 		'react/no-find-dom-node': 'off',
@@ -35,7 +36,7 @@ module.exports = {
 			},
 		],
 		'react-hooks/rules-of-hooks': 'error',
-		'react-hooks/exhaustive-deps': 'error',
+		'react-hooks/exhaustive-deps': 'warning',
 		'react/jsx-fragments': ['error', 'element'], // elium-i18n doesn't handle fragment syntax
 		'react/jsx-handler-names': 'off',
 		'react/jsx-pascal-case': 'off',
