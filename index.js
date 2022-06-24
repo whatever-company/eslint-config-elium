@@ -1,23 +1,33 @@
 'use strict'
 
 module.exports = {
-	extends: [
-		'standard',
-		'standard-react',
-		'plugin:react/recommended',
-		'prettier',
-	],
-	plugins: ['graphql', 'react', 'prettier', 'standard', 'react-hooks'],
+	extends: ['standard', 'standard-react', 'plugin:react/recommended', 'prettier'],
+	plugins: ['graphql', 'react', 'prettier', 'react-hooks'],
 	settings: {
 		react: {
 			version: 'detect',
 		},
 	},
 	// "off" or 0 - turn the rule off
-    // "warn" or 1 - turn the rule on as a warning (doesn't affect exit code)
-    // "error" or 2 - turn the rule on as an error (exit code is 1 when triggered)
+	// "warn" or 1 - turn the rule on as a warning (doesn't affect exit code)
+	// "error" or 2 - turn the rule on as an error (exit code is 1 when triggered)
 	rules: {
 		// Don't use import/no-duplicates as it's quite slow and we don't use Flow
+
+		// from eslint-config-standard-react
+		'react/jsx-no-bind': [
+			'error',
+			{
+				allowArrowFunctions: true,
+				allowBind: false,
+				ignoreRefs: true,
+			},
+		],
+		'react/no-did-update-set-state': 'error',
+		'react/no-unknown-property': 'error',
+		'react/no-unused-prop-types': 'error',
+		'react/react-in-jsx-scope': 'error',
+
 		// https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md#when-not-to-use-it
 		'import/no-duplicates': 0,
 		'no-duplicate-imports': 2,
