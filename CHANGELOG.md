@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [9.0.5](https://github.com/whatever-company/eslint-config-elium/compare/v9.0.4...v9.0.5) (2022-06-28)
+
+
+### Bug Fixes
+
+* **ci:** correct build ([c1df770](https://github.com/whatever-company/eslint-config-elium/commit/c1df770585b6df1e6ea782739503a907b4f28d8b))
+
 ### [9.0.4](https://github.com/whatever-company/eslint-config-elium/compare/v9.0.3...v9.0.4) (2022-06-28)
 
 ### [9.0.3](https://github.com/whatever-company/eslint-config-elium/compare/v9.0.2...v9.0.3) (2021-10-20)
